@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#EEECE6"/>
+  <polygon points="80.0,540.0 400.0,60.0 720.0,540.0" fill="#E8563A" opacity="0.9"/>
+  <circle cx="400.0" cy="540.0" r="64.0" fill="#14130F" opacity="1"/>
+  <line x1="0" y1="300.0" x2="800" y2="300.0" stroke="#14130F" stroke-width="1" opacity="0.4"/>
+  <text x="776" y="576" font-family="IBM Plex Mono, monospace" font-size="14" fill="#14130F" text-anchor="end" letter-spacing="1">KIOSK / 01</text>
+</svg>

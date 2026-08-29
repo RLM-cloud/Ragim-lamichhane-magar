@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project — Mira Solano</title>
+  <meta name="description" content="Graphic design project case study." />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Project — Mira Solano" />
+  <meta property="og:description" content="Graphic design project case study." />
+  <meta property="og:image" content="" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="wrap">
+      <a href="index.html" class="nav-logo">Mira<span>.</span></a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html#about">About</a>
+        <a href="index.html#portfolio">Work</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#testimonials">Reviews</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="index.html#contact" class="btn nav-cta">Start a project</a>
+        <button class="nav-toggle" data-nav-toggle aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" data-mobile-menu>
+    <ul>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#portfolio">Work</a></li>
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#testimonials">Reviews</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <main data-project-main>
+    <section class="project-hero wrap">
+      <a href="index.html#portfolio" class="back-link">← Back to portfolio</a>
+
+      <div class="project-title-block">
+        <div>
+          <span class="eyebrow" data-project-category></span>
+          <h1 data-project-title style="margin-top:14px;"></h1>
+        </div>
+        <dl class="project-specs" data-project-specs></dl>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <img class="project-cover" data-project-cover src="" alt="" />
+
+      <div class="project-body">
+        <div class="project-copy">
+          <h2>Overview</h2>
+          <p data-project-overview></p>
+          <h2>The challenge</h2>
+          <p data-project-challenge></p>
+        </div>
+        <div class="project-copy">
+          <h2>The solution</h2>
+          <p data-project-solution></p>
+
+          <div data-project-testimonial style="border-top:1px solid var(--line); padding-top:24px; margin-top:8px;">
+            <p style="font-size:18px; line-height:1.6;">
+              &ldquo;<span data-testimonial-quote></span>&rdquo;
+            </p>
+            <div class="testimonial-person" style="margin-top:16px;">
+              <img data-testimonial-image src="" alt="" style="width:44px;height:44px;border-radius:50%;border:1px solid var(--line);" />
+              <div>
+                <span class="testimonial-name" data-testimonial-name></span>
+                <span class="testimonial-company" data-testimonial-company></span>
+              </div>
+            </div>
+          </div>
+
+          <p data-project-link-wrap style="margin-top:24px;">
+            <a data-project-link href="" target="_blank" rel="noopener" class="btn"></a>
+          </p>
+        </div>
+      </div>
+
+      <div class="project-gallery" data-project-gallery></div>
+
+      <h3 class="related-heading">More work</h3>
+      <div class="related-grid" data-related-grid></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <p class="footer-headline">Let's make something worth a second look.</p>
+        <a href="index.html#contact" class="btn btn-solid">Start a project</a>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span data-year></span> <span data-site-name></span>. All rights reserved.</span>
+        <div class="social-list" data-social-list></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="project.js"></script>
+</body>
+</html>
